@@ -1,0 +1,226 @@
+.lrc_cloudService{
+    height: 505px;
+    box-sizing: border-box;
+    background-color: #fff;
+    position: relative;
+}
+body{
+    background-color: #fff;
+}
+.lrc_cs_title{
+    width: 266px;
+    padding-top: 130px;
+    margin-bottom: 50px;
+}
+.lrc_cs_title h2{
+    font-size: 24px;
+    line-height: 33px;
+    color: #333;
+}
+.lrc_cs_title p{
+    padding-top: 10px;
+    font-size: 14px;
+    line-height: 26px;
+    color:#666;
+}
+
+.lrc_left_arrow,.lrc_right_arrow{
+    font-size: 40px;
+    width: 50px;
+    color: #ccc;
+    height: 50px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #F2F2F2;
+    border: 1px solid #ABABAB;
+    font-family: '宋体';
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.lrc_right_arrow:hover{
+    background-color: #066eec;
+    border-color: #066eec;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+.lrc_left_arrow:hover{
+    background-color: #066eec;
+    border-color: #066eec;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+/* ul轮播区开始 */
+.lrc_cs_group{
+    
+    width: 1026px;
+    height: 390px;
+    /* background-color: red; */
+    position: absolute;
+    left: 450px;
+    top: 80px;
+    overflow: hidden;
+}
+.lrc_cs_group ul{
+    position: absolute;
+    display: block;
+}
+.lrc_cs_group li{ 
+    margin-top: 10px;
+    padding-top: 30px;
+    width: 310px;
+    height: 370px;
+    text-align: center;
+    border-top: 1px solid #F2F2F2;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.12);
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    /* left: -350px; */
+    /* top: 0;  */
+    /* margin-right: 0; */
+
+}
+.lrc_cs_group li:hover{
+    top:-10px;
+    box-shadow:0 6px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+.lrc_cs_group li h4{
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+.lrc_cs_group li p{
+    text-align: left;
+    font-size: 14px;
+    line-height: 25px;
+    color: #666;
+    padding: 0 22px 20px 22px;
+}
+
+.lrc_isoIcon .lrc_img1{
+    margin-left: 100px;
+    width: 99px;
+    height: 99px;
+    /* display: block; */
+    background: url(../img/iso-1x_db48b462.png) 0 0 no-repeat;
+    /* background-position: 0 0; */
+}
+.lrc_isoIcon .lrc_img2{
+    margin-left: 100px;
+    width: 99px;
+    height: 99px;
+    background: url(../img/iso-1x_db48b462.png) 0 0 no-repeat;
+
+    background-position: 0 -99px;
+
+}
+.lrc_isoIcon .lrc_img3{
+    margin-left: 100px;
+    width: 99px;
+    height: 99px;
+    background: url(../img/iso-1x_db48b462.png) 0 0 no-repeat;
+
+    background-position: 0 -198px;
+
+}
+.lrc_isoIcon .lrc_img4{
+    margin-left: 100px;
+    width: 99px;
+    height: 99px;
+    background: url(../img/iso-1x_db48b462.png) 0 0 no-repeat;
+
+    background-position: 0 -297px;
+
+}
+.lrc_isoIcon .lrc_img8{
+    margin-left: 100px;
+    width: 99px;
+    height: 99px;
+    background: url(../img/iso-1x_db48b462.png) 0 0 no-repeat;
+
+    background-position: 0 -396px;
+    /* border: none; */
+}
+
+.lrc_isoIcon .lrc_img5{
+    width: 124px;
+    height: 83px;
+    /* display: block; */
+}
+.lrc_isoIcon .lrc_img6{
+    width: 119px;
+    height: 85px;
+}
+.lrc_isoIcon .lrc_img7{
+    width: 61px;
+    height: 85px;
+}
+.lrc_getDetails{
+    display: inline-block;
+    border: 1px solid #7D7D7D;
+    width: 150px;
+    height: 34px;
+    font-size: 14px;
+    line-height: 34px;
+    position: absolute;
+    bottom: 20px;
+    
+    margin-left: 50%;
+    left: -75px;
+    cursor: pointer;
+    /* background-color: #066eec; */
+
+}
+.lrc_getDetails:hover{
+    color: #fff;
+    border-color: #066eec;
+    background-color: #066eec;
+    transition: all 0.3s ease;
+}
+.lrc_cs_group .lrc_li6{
+    height: 300px;
+}
+.lrc_getNow{
+    text-align: center;
+    color: #fff;
+    background: #048cff
+    url(../img/register_bg_05e86992.png) top center no-repeat;
+    background-size: 1920px 241px;
+    height: 241px;
+    /* width: 100%; */
+    box-sizing:border-box;
+    
+}
+.lrc_getNow h3{
+    padding-top: 55px;
+    font-size: 25px;
+    line-height: 33px;
+    color: #fff;
+    text-align: center;
+}
+.lrc_getNow p{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.lrc_getNow a{
+    margin: 0 auto;
+    width: 157px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    margin-top: 25px;
+}
+.lrc_getNow a:hover{
+    border-color: #fff;
+    background-color: #fff;
+    color: #048cff;
+    transition: all 0.3s ease;
+}
+
+
+

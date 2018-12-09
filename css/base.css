@@ -1,0 +1,65 @@
+﻿
+/* 1. 将页面中标签具有默认的内外边距去掉
+
+2、 将页面中标签有默认的边框去掉
+
+3. 将页面中标签有默认的文字颜色，其他默认样式去掉
+
+4. 设置一个基本的统一样式【文字颜色，文字大小，文字字体】 */
+
+body,p,ul,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: #666;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: "微软雅黑";
+	box-sizing: border-box;
+}
+body{
+	background-color: #f4f5f7;
+}
+a {
+	text-decoration: none;
+	color: #666;
+}
+
+
+
+input,img {
+	border: 0 none;
+	outline-style: none;
+	padding: 0;
+	margin: 0;
+	vertical-align: middle;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.w {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+.clearfix {
+	zoom: 1;
+}
